@@ -55,7 +55,7 @@ def procesar_csv(ruta_entrada, ruta_salida):
             print(f"Error procesando {archivo}: {str(e)}")
 
 # Uso del script
-directorio_entrada = "/home/pablo/Documentos/20250424-script-procesa-encuestas"  # Cambiar esto por tu directorio
-directorio_salida = os.path.join(directorio_entrada, "procesados")
+directorio_entrada = "/home/pablo/Documentos/20250424-script-procesa-encuestas/originales"
+directorio_salida = "/home/pablo/Documentos/20250424-script-procesa-encuestas/procesados"
 
 procesar_csv(directorio_entrada, directorio_salida)
